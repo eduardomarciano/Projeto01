@@ -6,14 +6,6 @@ url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=sw
 	margin: 0;
 	border: 0;
 
-
-
-
-
-
-
-
-	
 }
 /* colors and images */
 :root {
@@ -27,7 +19,7 @@ url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=sw
 --edit-button-color: #ffa207;
 --delete-button-color: #dc3545;
 --pagination-active-bg: #007bff;
---header-by-image: url(/Users/Marciano/Documents/Edu/UnB/Programming/CJR/Projeto01/imagem_projeto.jpg);
+--header-by-image: url(imagem_projeto.jpg);
 --text-color: #fff;
 --text-black: #000000;
 }
