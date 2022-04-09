@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projeto 01 | Eduardo Marciano</title>
+	<link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+
+	<header>
+		<div class="titulo">
+
+			<h3>DinnerDash</h3>
+
+			<div>
+				<nav>
+					<a href="#">Backoffice</a>	
+					<a href="#">Perfil</a>
+					<a href="#">Sair</a>
+				</nav>
+			</div>
+			
+		</div>
+
+		<div class ="sub-titulo">
+				<h1>Backoffice</h1>
+				<p>Gerencie pedidos, refeições e mais.</p>
+		</div>
+	</header>
+	<main>
+		<div class="rodape">
+			<a href="#">Pedidos</a>	
+			<a href="#">Usuários</a>
+			<a href="#">Refeições</a>
+			<a href="#">Categorias de Refeição</a>
+			
+		</div>
+
+		<div class="separador">
+
+			
+			<table>
+				</thead class="cabeçalho">
+					<tr>
+						<th>Nome</th>
+						<th>Email</th>
+						<th colspan="2">Cadastro em</th>
+						<th></th>
+					</tr>
+				</thead>
+
+				<tbody>
+	        		<tr id="1">
+	          			<td>Tony Tony Chopper</td>
+	          			<td>andremerli74@gmail.com</td>
+	          			<td>06/12/2007</td>
+	          			<td>
+	          				<button class="editar" type="button">Editar</button>
+	            			<button class="deletar" type="button"onclick="removerTR1()">Excluir</button>
+	          			</td>
+
+	        		</tr>
+
+	        		<tr id="2">
+	          			<td>Roronoa Zoro</td>
+	          			<td>caueameni@gmail.com</td>
+	          			<td>20/09/2004</td>
+	          			<td>
+	          				<button class="editar" type="button">Editar</button>
+	            			<button class="deletar" type="button"onclick="removerTR2()">Excluir</button>
+	          			</td>
+	        		</tr>
+
+	        		<tr id="3">
+	          			<td>Monkey D. Luffy</td>
+	          			<td>deuzimarcorreiadesantana@gmail.com</td>
+	          			<td>03/04/2001</td>
+	          			<td>
+	          				<button class="editar" type="button">Editar</button>
+	            			<button class="deletar" type="button"onclick="removerTR3()">Excluir</button>
+	          			</td>
+	        		</tr>
+
+	        		<tr id="4">
+	          			<td>Jinbe</td>
+	          			<td>etechy@tre-pr.jus.br</td>
+	          			<td>06/06/2011</td>
+	          			<td>
+	          				<button class="editar" type="button">Editar</button>
+	            			<button class="deletar" type="button"onclick="removerTR4()">Excluir</button>
+	          			</td>
+	        		</tr>
+
+	        		<tr id="5">
+	          			<td>Brook</td>
+	          			<td>joaomoura.com@gmail.com</td>
+	          			<td>12/01/2001</td>
+	          			<td>
+	          				<button class="editar" type="button">Editar</button>
+	            			<button class="deletar" type="button"onclick="removerTR5()">Excluir</button>
+	          			</td>
+	        		</tr>
+				</tbody>
+				
+				</table>
+			<div class="troca">
+			  <button><<</button>
+		      <button>1</button>
+		      <button>2</button>
+		      <button>3</button>
+		      <button>>></button>
+
+
+	    	</div>
+	    </div>
+
+	</main>
+  
+	<footer>
+		<span class = "copyright">dinnerdash | Todos os direitos reservados a mim</span>
+		<span class = "developer_info">Desenvolvido por Eduardo Marciano</span>	
+
+	</footer>
+
+
+	<script src="projeto.js"> </script>
+</body>
+</html>

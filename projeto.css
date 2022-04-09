@@ -1,0 +1,131 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+*{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+/* colors and images */
+:root {
+--nav-links-color: #fff;
+--button-hover-color: #878584;
+--backoffice-menu-bg: #343a40;
+--table-head-bg: #e9ecef;
+--nav-link-hover-color: #f79800;
+--footer-color: #e3e3e3;
+--dark-layer: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
+--edit-button-color: #ffa207;
+--delete-button-color: #dc3545;
+--pagination-active-bg: #007bff;
+--header-by-image: url(file:///C:/Users/Marciano/Pictures/imagem_projeto.jpg);
+--text-color: #fff;
+--text-black: #000000;
+}
+
+header{
+	background-image:var(--dark-layer),var(--header-by-image);
+	background-size:cover;
+	background-position:center;
+	height: 45vh;
+	color: var(--text-color);
+
+	box-sizing: border-box;
+	padding: 2% 5%;
+	display: flex;	
+	flex-direction: column;
+	justify-content:space-between;
+}
+.titulo{
+	display: flex;	
+	flex-direction: row;
+	justify-content:space-between;
+}
+header p: {
+	text-decoration: none;
+	color: inherit;
+}
+
+a {
+	padding: 1rem;
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	cursor: pointer;
+  color: var(--nav-link-hover-color);
+}
+
+.rodape{
+	display: flex;
+	align-items: center;
+	padding: 0% 4%;
+	height: 7vh;
+	color: var(--text-color);
+
+	background-color:var(--backoffice-menu-bg);
+}
+.rodape: hover{
+	  display: flex;
+		cursor: pointer;
+}
+
+table{
+
+	width: 80%;
+	margin: 1rem auto;
+	border-spacing: 0;
+	font-size: 1.1rem;
+}
+
+th{
+	height: 7vh;
+	background-color:var(--table-head-bg);
+}
+td{
+	padding: 1em;
+}
+
+.deletar {
+  font-weight: bold;
+  background:none;
+  cursor: pointer;
+  color: var(--delete-button-color);
+}
+.editar{
+  font-weight: bold;
+  background:none;
+  cursor: pointer;
+  color: var(--edit-button-color);
+
+}
+.separador{
+	display: flex;	
+	flex-direction: column;
+	justify-content:space-between;
+
+}
+.troca{
+	width: 15%;
+	margin: 1rem auto;
+	border-spacing: 0;
+}
+
+.troca button {
+  color: black;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color: var(--footer-color);
+	min-height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
